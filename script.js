@@ -20,6 +20,10 @@ function add_to_list() {
     case "MUSIC":
       select_opt = 3
       break
+
+    case "READ":
+      select_opt = 4
+      break
   }
 
   let class_li = [
@@ -27,6 +31,7 @@ function add_to_list() {
     "list_work list_dsp_none",
     "list_sport list_dsp_none",
     "list_music list_dsp_none",
+    "list_read list_dsp_none",
   ]
 
   let cont =
@@ -67,6 +72,7 @@ function finish_action(num, num2) {
     "list_work  list_dsp_true",
     "list_sport list_dsp_true",
     "list_music list_dsp_true",
+    "list_read list_dsp_true",
   ]
   console.log(".li_num_" + num2)
   document.querySelector(".li_num_" + num2).className = class_li[num] + " list_finish_state"

@@ -330,9 +330,14 @@
   }
   
   .list_music > .col_md_1_list {
-     border-left: 4px solid #EE1E65; 
-     color: #EE1E65;
+     border-left: 4px solid #3e99c0; 
+     color: #3e99c0;
   }
+
+  .list_read > .col_md_1_list {
+    border-left: 4px solid #16c73d; 
+    color: #16c73d;
+ }
   
   .list_finish_state {
     opacity: 0.3;
